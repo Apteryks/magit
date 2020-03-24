@@ -167,6 +167,8 @@ itself from the hook, to avoid further futile attempts."
     ;; Match-group 99 is used to identify the "user@host" part.
     "^\\(Enter \\)?[Pp]assword\\( for '?\\(https?://\\)?\\(?99:[^']*\\)'?\\)?: ?$"
     "^.*'s password: ?$"
+    "Please enter the passphrase for the ssh key"
+    "Please enter the passphrase to unlock the OpenPGP secret key"
     "^Yubikey for .*: ?$"
     "^Enter PIN for .*: ?$")
   "List of regexps matching password prompts of Git and its subprocesses.
